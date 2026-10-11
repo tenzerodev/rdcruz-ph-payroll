@@ -1,0 +1,12 @@
+{
+  "name": "rdcruz-ph-payroll",
+  "version": "1.0.0",
+  "description": "Philippine payroll for 2026: SSS, PhilHealth and Pag-IBIG contributions, BIR withholding tax (TRAIN law tables), net pay, employer cost and 13th month pay. No dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "exports": { ".": "./src/payroll.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["philippines", "payroll", "sss", "philhealth", "pag-ibig", "hdmf", "withholding-tax", "bir", "train-law", "salary"],
+  "repository": { "type": "git", "url": "git+https://github.com/tenzerodev/rdcruz-ph-payroll.git" }
+}
